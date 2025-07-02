@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meloz Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #e8f5e9, #ffffff);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #4CAF50, #66BB6A);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    .produk {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      font-size: 20px;
+      margin: 15px 0;
+      padding: 0 15px;
+    }
+
+    .btn {
+      display: block;
+      margin: 15px auto 20px;
+      padding: 12px 20px;
+      background: #25D366;
+      color: white;
+      text-align: center;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #128C7E;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #4CAF50;
+      color: white;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Meloz Store</h1>
+    <p>Jual Panel, Akun Game FF, Roblox, dan ML Termurah!</p>
+  </header>
+
+  <section class="produk">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Panel+Pterodactyl" alt="Panel Pterodactyl" />
+      <h3>Panel Pterodactyl</h3>
+      <a class="btn" href="https://wa.me/6283870653868?text=Halo%2C+saya+ingin+pesan+Panel+Pterodactyl">Pesan via WhatsApp</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Akun+Free+Fire" alt="Akun FF" />
+      <h3>Akun Free Fire</h3>
+      <a class="btn" href="https://wa.me/6283870653868?text=Halo%2C+saya+ingin+pesan+Akun+Free+Fire">Pesan via WhatsApp</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Akun+Roblox" alt="Akun Roblox" />
+      <h3>Akun Roblox</h3>
+      <a class="btn" href="https://wa.me/6283870653868?text=Halo%2C+saya+ingin+pesan+Akun+Roblox">Pesan via WhatsApp</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200?text=Akun+Mobile+Legends" alt="Akun ML" />
+      <h3>Akun Mobile Legends</h3>
+      <a class="btn" href="https://wa.me/6283870653868?text=Halo%2C+saya+ingin+pesan+Akun+Mobile+Legends">Pesan via WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Meloz Store | WhatsApp: 0838-7065-3868
+  </footer>
+
+</body>
+</html>
